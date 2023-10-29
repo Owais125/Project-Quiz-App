@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="nextQuestion()">
+    <div id="main">
+        <h1>Question</h1><h1 id="one">1</h1>
+
+        <div id="main1">
+        <p id="para"></p>
+        <br>
+        <br>
+        <br>
+    </div>
+
+
+<div id="main2">
+        <input value="1" name="options" onclick="clicked()" type="radio">
+        <label id="opt1" ></label>
+
+        <input value="2" name="options" class="left "  onclick="clicked()" type="radio">
+        <label  id="opt2" ></label>
+
+        <br>
+        <br>
+        <br>
+
+        <input value="3" name="options" onclick="clicked()" type="radio">
+        <label id="opt3" ></label>
+
+        <input value="4" name="options" class="left " onclick="clicked()" type="radio">
+        <label  id="opt4" ></label>
+
+    </div>
+
+    
+    
+    
+    
+    <button disabled onclick="nextQuestion()" id="btn">Next</button>
+
+    </div>
+    
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
